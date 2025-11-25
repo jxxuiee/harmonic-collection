@@ -1,0 +1,54 @@
+
+#image-gallery img{
+    width: 300px;
+}
+
+body{
+    background-color:black;
+}
+
+#image-gallery{
+    max-width: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    row-gap: 20px;
+
+}
+
+
+#mask{
+    align-self: flex-end;
+}
+
+#apartment{
+    align-self: flex-end;
+}
+
+#image-gallery div p{
+    font-size: 40px;
+    color: white;
+  font-family: "IBM Plex Mono", monospace;
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: center;
+    opacity: 0;
+    transition: 2s;
+    width: 100%
+    
+}
+
+#image-gallery div{
+    position: relative;
+    cursor: pointer;
+}
+
+#image-gallery div:hover p{
+    opacity:1;
+
+}
+

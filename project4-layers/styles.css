@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  p.big {
+  line-height: 3;
+}
+}
+
+
+.layer {
+  display: none;
+  height: 100vh;
+  padding-top: 200px;
+  color: white;
+}
+
+#layer-title {
+  background: orange;
+  color: white;
+  display: block;
+
+}
+#layer-verse {
+  background: lightgray;
+  color: black;
+}
+#layer-chorus {
+  background: #696969;
+}
+
+p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size:20px;
+}
+:target {
+  display: block;
+}
+
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 80px;
+}
+
+a {
+  display: block;
+  margin-top: 40px;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.insight {
+  margin-top: 60px;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.insight2 {
+  margin-top: 60px;
+  font-size: 14px;
+  color: #292828;
+  font-style: italic;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-layer {
+  border: 2px solid white;
+  padding: 16px;
+}

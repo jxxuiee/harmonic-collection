@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: "IBM Plex Mono", monospace;
+}
+a{
+    font-size: 100px;
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+.top-left {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    font-size: 150px;
+}
